@@ -10,7 +10,7 @@ Generating text image samples to train an OCR software. Now supporting non-latin
 
 Install the pypi package
 
-```
+```~~~~
 pip install trdg
 ```
 
@@ -24,7 +24,7 @@ If you would rather not have to install anything to use TextRecognitionDataGener
 
 ```
 docker pull belval/trdg:latest
-
+~~~~
 docker run -v /output/path/:/app/out/ -t belval/trdg:latest trdg [args]
 ```
 
